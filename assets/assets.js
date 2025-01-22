@@ -98,22 +98,22 @@ export const workData = [
     {
         title: 'Website Development',
         description: 'Web Design',
-        byImage:'/work-1.png',
+        byImage:'./work-1.png',
     },
     {
         title: 'Mobile App Development',
         description: 'Mobile App',
-        byImage: '/work-2.png',
+        byImage: './work-2.png',
     },
     {
         title: 'UI/UX Design',
         description: 'UI/UX Design',
-        byImage: '/work-4.png',
+        byImage: './work-4.png',
     },
     {
         title: 'WordPress Development', 
         description: 'WordPress',
-        byImage: '/work-3.png',
+        byImage: './work-3.png',
     },
 ];
 
