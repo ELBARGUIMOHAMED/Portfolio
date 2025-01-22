@@ -98,27 +98,25 @@ export const workData = [
     {
         title: 'Website Development',
         description: 'Web Design',
-        byImage: './asset/work-1.png',
+        byImage: '/Portfolio/assets/work-1.png', // Updated path
     },
     {
         title: 'Mobile App Development',
         description: 'Mobile App',
-        byImage: './asset/work-2.png'
+        byImage: '/Portfolio/assets/work-2.png', // Updated path
     },
     {
         title: 'UI/UX Design',
         description: 'UI/UX Design',
-        byImage: './asset/work-4.png'
+        byImage: '/Portfolio/assets/work-4.png', // Updated path
     },
     {
-        title: 'Wordpress Development', 
-        description: 'wordpress ',
-        byImage: './asset/work-3.png'
+        title: 'WordPress Development', 
+        description: 'WordPress',
+        byImage: '/Portfolio/assets/work-3.png', // Updated path
     },
+];
 
-  
-
-]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Website Development', description: 'Website development is the process of building, programming, and maintaining websites to ensure functionality and aesthetics.', link: '' },
