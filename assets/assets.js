@@ -113,7 +113,7 @@ export const workData = [
     {
         title: 'WordPress Development', 
         description: 'WordPress',
-        byImage: '/Portfolio/assets/work-3.png', // Updated path
+        byImage: '/Portfolio/assets/work-3.png', 
     },
 ];
 
