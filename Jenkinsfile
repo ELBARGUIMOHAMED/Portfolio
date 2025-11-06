@@ -2,14 +2,13 @@ pipeline {
     agent any
 
     environment {
-        GITHUB_TOKEN = credentials('Token')
-        REPO_URL = 'https://github.com/ELBARGUIMOHAMED/Portfolio.git'
+        GITHUB_TOKEN = '<L_TOKEN_DYALK>' 
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', credentialsId: 'Token', url: "${REPO_URL}"
+                git url: "https://${GITHUB_TOKEN}@github.com/ELBARGUIMOHAMED/Portfolio.git", branch: 'main'
             }
         }
 
@@ -28,12 +27,11 @@ pipeline {
         stage('Deploy to GitHub Pages') {
             steps {
                 sh '''
-                git config --global user.email "barguim99@gmail.com"
-                git config --global user.name "MOHAMED ELBARGUI"
-                npm run deploy
+                    git config --global user.email "barguim99@gmail.com"
+                    git config --global user.name "MOHAMED ELBARGUI"
+                    npm run deploy
                 '''
             }
         }
     }
 }
-
