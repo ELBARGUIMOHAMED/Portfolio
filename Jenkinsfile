@@ -1,14 +1,19 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:18-alpine'  
+            args '-p 3000:3000'
+        }
+    }
 
     environment {
-        GITHUB_TOKEN = '<L_TOKEN_DYALK>' 
+        GITHUB_TOKEN = credentials('GitHubCredential') 
     }
 
     stages {
-        stage('Clone Repository') {
+        stage('Checkout') {
             steps {
-                git url: "https://${GITHUB_TOKEN}@github.com/ELBARGUIMOHAMED/Portfolio.git", branch: 'main'
+                git branch: 'main', credentialsId: 'GitHubCredential', url: 'https://github.com/ELBARGUIMOHAMED/Portfolio.git'
             }
         }
 
