@@ -76,4 +76,4 @@ To run this project locally on your machine:
 Mohamed Elbargui
 Junior DevOps Engineer & Web Developer
 
-![alt text](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-elbargui-226613252)
