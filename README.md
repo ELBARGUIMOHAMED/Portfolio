@@ -70,11 +70,3 @@ To run this project locally on your machine:
 ├── components/           # Reusable React Components
 ├── tailwind.config.mjs   # Tailwind CSS Configuration
 └── next.config.mjs       # Next.js Settings
-
-##
-
-👤 Author
-**Mohamed Elbargui**  
-*Junior DevOps Engineer & Web Developer*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-elbargui-226613252)
