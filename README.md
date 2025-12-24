@@ -71,7 +71,9 @@ To run this project locally on your machine:
 ├── tailwind.config.mjs   # Tailwind CSS Configuration
 └── next.config.mjs       # Next.js Settings
 
-## 👤 Author
+##
+
+👤 Author
 **Mohamed Elbargui**  
 *Junior DevOps Engineer & Web Developer*
 
